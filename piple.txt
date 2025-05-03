@@ -1,0 +1,57 @@
+[Pure IDs Dataset]
+    ↓
+[Preprocessing]
+    → Encode user_id, item_id (label encoding)
+    → Convert rating to 1/0 (cho NCF)
+    → Negative sampling (cho NCF)
+    → Build matrix rating (cho iiCF, uuCF, MFCF)
+    ↓
+[Train Models]
+    → Content-based Model
+    → iiCF Model
+    → uuCF Model
+    → MFCF Model
+    → NCF Model (GMF + MLP)
+    ↓
+[Evaluate]
+    → Metrics: HR@K, NDCG@K
+    ↓
+[Deploy Hybrid System]
+    → Choose model by user type
+    → Weighted Sum hoặc Switch Model
+
+
+Hybrid_Recommendation_System/
+├── README.md         # Mô tả project tổng thể
+├── data/              # Thư mục dữ liệu
+│   ├── train.csv
+│   ├── valid.csv
+│   ├── test.csv
+│   ├── meta.json
+├── preprocessing/     # Xử lý dữ liệu
+│   ├── encode_ids.py
+│   ├── content_based_tfidf.py
+│   ├── dataset_loader.py
+├── models/            # Các mô hình train
+│   ├── iiCF.py
+│   ├── uuCF.py
+│   ├── MFCF.py
+│   ├── NCF.py (NeuMF)
+├── trained_models/    # Lưu checkpoint model đã train
+│   ├── tfidf_vectorizer.pkl
+│   ├── word2vec.model
+│   ├── iicf_model.pkl
+│   ├── uucf_model.pkl
+│   ├── mfcf_model.pt
+│   ├── ncf_model.h5
+├── evaluation/        # Đánh giá mô hình
+│   ├── evaluate_models.py
+│   ├── metrics.py
+├── api/               # Flask API
+│   ├── app.py
+│   ├── recommender.py
+├── notebook/          # Jupyter Notebook
+│   ├── eda.ipynb
+│   ├── train_ncf.ipynb
+│   ├── experiments.ipynb
+└── requirements.txt   # Các thư viện cần cài

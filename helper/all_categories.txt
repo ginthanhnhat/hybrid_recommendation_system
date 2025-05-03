@@ -1,0 +1,33 @@
+categories not use: Handmade_Products, Digital_Music, Subscription_Boxes, Amazon_Fashion, Health_and_Personal_Care, Appliances
+
+========== File review chưa down xong ==========
+"Clothing_Shoes_and_Jewelry",
+"Home_and_Kitchen",
+"Kindle_Store",
+"Movies_and_TV",
+"Electronics",
+"All_Beauty",
+"Arts_Crafts_and_Sewing",
+"Automotive",
+"Baby_Products",
+"Beauty_and_Personal_Care",
+"Books",
+"CDs_and_Vinyl",
+"Cell_Phones_and_Accessories",
+"Gift_Cards",
+"Grocery_and_Gourmet_Food",
+"Health_and_Household",
+"Industrial_and_Scientific",
+"Magazine_Subscriptions",
+"Musical_Instruments",
+"Office_Products",
+"Patio_Lawn_and_Garden",
+"Pet_Supplies",
+"Software",
+"Sports_and_Outdoors",
+"Tools_and_Home_Improvement",
+"Toys_and_Games",
+"Video_Games",
+"Unknown",
+
+Electronics.json Unknown.json Kindle_Store.json Books.json Tools_and_Home_Improvement.json Health_and_Household.json Beauty_and_Personal_Care.json Home_and_Kitchen_part1.json Home_and_Kitchen_part2.json Home_and_Kitchen_part3.json Clothing_Shoes_and_Jewelry_part1.json Pet_Supplies.json Clothing_Shoes_and_Jewelry_part2.json Movies_and_TV.json Cell_Phones_and_Accessories.json Clothing_Shoes_and_Jewelry_part3.json Sports_and_Outdoors.json Automotive.json Patio_Lawn_and_Garden.json Toys_and_Games.json Grocery_and_Gourmet_Food.json Office_Products.json

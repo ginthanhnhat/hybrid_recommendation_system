@@ -1,0 +1,46 @@
+// meta: chứa thông tin sản phẩm
+{
+    "main_category": "All Beauty", //
+    "title": "Howard LC0008 Leather Conditioner, 8-Ounce (4-Pack)", //
+    "average_rating": 4.8, //
+    "rating_number": 10, //
+    "features": [], //
+    "description": [], // 
+    "price": null, //
+    "images": [
+        {
+            "thumb": "https://m.media-amazon.com/images/I/41qfjSfqNyL._SS40_.jpg", 
+            "large": "https://m.media-amazon.com/images/I/41qfjSfqNyL.jpg", 
+            "variant": "MAIN", "hi_res": null
+        }, 
+        {
+            "thumb": "https://m.media-amazon.com/images/I/41w2yznfuZL._SS40_.jpg", 
+            "large": "https://m.media-amazon.com/images/I/41w2yznfuZL.jpg", 
+            "variant": "PT01", 
+            "hi_res": "https://m.media-amazon.com/images/I/71i77AuI9xL._SL1500_.jpg"
+        }
+    ], 
+    "videos": [],
+    "store": "Howard Products", ////
+    "categories": [], 
+    "details": {
+        "Package Dimensions": "7.1 x 5.5 x 3 inches; 2.38 Pounds", 
+        "UPC": "617390882781"
+    }, 
+    "parent_asin": "B01CUPMQZE", 
+    "bought_together": null
+}
+
+// review: chứa thông tin đánh giá của người dùng
+{
+    "rating": 4.0, 
+    "title": "Works great but smells a little weird.", 
+    "text": "This product does what I need it to do, I just wish it was odorless or had a soft coconut smell. Having my head smell like an orange coffee is offputting. (granted, I did know the smell was described but I was hoping it would be light)", 
+    "images": [], 
+    "asin": "B081TJ8YS3", 
+    "parent_asin": "B081TJ8YS3", 
+    "user_id": "AGKHLEW2SOWHNMFQIJGBECAF7INQ", 
+    "timestamp": 1588615855070, 
+    "helpful_vote": 1, 
+    "verified_purchase": true
+}
